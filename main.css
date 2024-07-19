@@ -1,0 +1,91 @@
+html { 
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before { 
+    box-sizing: inherit;
+}
+
+body   { 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container { 
+    margin: 0 auto;
+    padding: 25px 100px;
+    max-width: 750px;
+    min-width: 320px;
+}
+
+.title { 
+    margin: 0;
+    margin-bottom: 30px;
+    padding-left: 25px;
+}    
+
+.form { 
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 500px;
+    border: 2px solid #d0cdcd;
+    border-radius: 15px;
+}
+
+.form__wrapper-btm { 
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form__label { 
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form__label--card { 
+    margin-bottom: 15px;
+}
+
+.form__label--date { 
+    min-width: 40%;
+}
+
+.form__label--cvc { 
+    min-width: 40%;
+}
+
+.form__label--email { 
+    margin-bottom: 30px;
+}
+
+.form__input { 
+    padding: 0 10px;
+    min-height: 40px;
+    border: none;
+    background-color: #eeeaea;
+    border-radius: 10px ;
+}
+
+.success { 
+    border: 1px solid #90ce90;
+}
+.error { 
+    border: 1px solid rgb(184, 17, 17);
+}
+
+.form__btn { 
+    margin: 0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #90ce90;
+    color: #426e42; 
+}
+
+.form__btn--disabled { 
+    background-color: #c6c4c4;
+    color: #000000;
+}

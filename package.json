@@ -1,0 +1,22 @@
+{
+  "name": "payment",
+  "description": "*При выполнении задания вам понадобится npm и система сборки. Вы можете взять parcel или попробовать любую другую систему, если сможете в ней разобраться.*",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build main.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "card-validator": "^9.1.0",
+    "cleave.js": "^1.6.0",
+    "email-validator": "^2.0.4",
+    "redom": "^4.1.5"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
